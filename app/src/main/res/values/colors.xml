@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="hic_color50">#e8eaf6</color>
+    <color name="hic_color100">#c5cae9</color>
+    <color name="hic_color200">#9fa8da</color>
+    <color name="hic_color300">#7986cb</color>
+    <color name="hic_color400">#5c6bc0</color>
+    <color name="hic_color500">#3f51b5</color>
+    <color name="hic_color600">#3949ab</color>
+    <color name="hic_color700">#303f9f</color>
+    <color name="hic_color800">#283593</color>
+    <color name="hic_color900">#1a237e</color>
+    <color name="hic_colorA100">#8c9eff</color>
+    <color name="hic_colorA200">#536dfe</color>
+    <color name="hic_colorA400">#3d5afe</color>
+    <color name="hic_colorA700">#304ffe</color>
+    <color name="hic_color_high">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

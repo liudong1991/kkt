@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme.
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:screenOrientation">portrait</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="bottom_radiobutton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:drawablePadding">4dp</item>
+        <!--
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        -->
+    </style>
+
+    <style name="tablayout">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="xz_edit" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorControlActivated">#000000</item>
+    </style>
+
+    <style name="sl_edit_regist_par">
+        <item name="android:textColorHint">#858887</item>
+        <item name="android:textColor">#393c3e</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:theme">@style/xz_edit</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="sl_edit_regist1" parent="sl_edit_regist_par">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

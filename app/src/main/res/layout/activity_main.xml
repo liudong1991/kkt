@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/home_bottom"
+        >
+
+    </FrameLayout>
+
+<!--
+    <LinearLayout
+        app:layout_constraintBottom_toTopOf="@id/home_bottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/hic_color900">
+
+    </android.support.v4.view.ViewPager>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/title_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:tabBackground="@color/hic_color500"
+        app:tabGravity="center"
+        app:tabIndicatorColor="@color/hic_color_high"
+        app:tabIndicatorHeight="2dp"
+        app:tabMode="scrollable"
+        app:tabPadding="4dp"
+
+        app:tabSelectedTextColor="@color/hic_color_high"
+        app:tabTextAppearance="@style/tablayout"
+        app:tabTextColor="@color/hic_color50" />
+    </LinearLayout>
+    -->
+    <RadioGroup
+        android:id="@+id/home_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="1dp"
+        android:layout_alignParentBottom="true">
+
+        <RadioButton
+            android:id="@+id/profit"
+            style="@style/bottom_radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:background="#ffffff"
+            android:text="收益"
+            android:textColor="@drawable/home_bottombutton" />
+
+        <RadioButton
+            style="@style/bottom_radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:background="#ffffff"
+            android:text="推广"
+            android:textColor="@drawable/home_bottombutton" />
+
+        <RadioButton
+            style="@style/bottom_radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dp"
+            android:background="#ffffff"
+            android:text="兑换"
+            android:textColor="@drawable/home_bottombutton" />
+
+        <RadioButton
+            style="@style/bottom_radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="我的"
+            android:textColor="@drawable/home_bottombutton" />
+    </RadioGroup>
+
+</RelativeLayout>
